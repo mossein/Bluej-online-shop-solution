@@ -117,6 +117,7 @@ public class SalesItemTest
     public void findMostHelpfulComment()
     {
         SalesItem s1 = new SalesItem("Bag", 200);
+        s1.findMostHelpfulComment();
     }
 }
 
