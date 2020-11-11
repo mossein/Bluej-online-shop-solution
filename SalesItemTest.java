@@ -107,7 +107,7 @@ public class SalesItemTest
     public void ratingInvalid()
     {
         SalesItem s1 = new SalesItem("Bag", 200);
-        assertEquals(false, s1.addComment("Fume", "Not good", -1));
+        assertEquals(false, s1.addComment("Fume", "Not good", 0));
         assertEquals(false, s1.addComment("Mel", "Really good", 7));
     }
 
